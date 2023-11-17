@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 45px;
+    background-image: url("astro.png");
+    background-repeat: no-repeat;
+}
+
+#titular-contenedor {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 18px;
+    margin-bottom: 30px;
+    width: 200px; /* Ajusta el ancho según tu preferencia */
+    float: top; 
+
+
+
+}
+
+
+#formulario-contenedor {
+    background-color: #f2f2f2;
+    border-radius: 37px;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 400px; /* Ajusta el ancho según tu preferencia */
+    float: left; /* Hace que el contenedor se alinee a la izquierda */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #449c47;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #46a54b;
+}
+
+#resultado {
+    font-weight: bold;
+}
+
+.disabled {
+    opacity: 0.5; /* Reduce la opacidad para indicar que el botón está deshabilitado */
+    pointer-events: none; /* Evita interacciones con el botón deshabilitado */
+}
