@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h3>Twitter</h3>
+    </header><br>
+
+    <div class="contenido">
+        <label id="tweet-input-label" for="tweet-input">Escribe tu Tweet:</label><br/>
+        <textarea id="tweet-input" autofocus placeholder="Introduce un tweet!" cols="36" rows="4"></textarea><br/>
+        <button id="upload-tweet-button">Agregar Tweet</button>
+    </div>
+    
+    <section id="lista-tweets">
+        <div id="tweet-lista">
+            <h2>Mis tweets</h2>
+            <ul id="tweet-lista-elementos"></ul>
+        </div>
+    </section>
+</body>
+</html>

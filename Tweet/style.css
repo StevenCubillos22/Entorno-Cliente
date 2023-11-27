@@ -1,0 +1,101 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+
+
+
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.cabecera {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.cabecera h3 {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
+    background-color: #3498db; /* Color azul de fondo */
+    padding: 10px;
+    border-radius: 5px; /* Añade bordes redondeados si lo deseas */
+}
+
+.contenido {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-borrar {
+    width: 23px; 
+    height: 21px; 
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen para indicar que es clickeable */
+}
+
+#tweet-input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#tweet-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#upload-tweet-button, #clear-tweets-button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#clear-tweets-button:disabled {
+    background-color: #aaaaaa;
+    cursor: not-allowed;
+}
+
+#lista-tweets {
+    margin-top: 40px;
+    position: relative;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #333;
+}
+
+#tweet-lista {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 350px;
+    width: 310px;
+}
+
+#tweet-lista-elementos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tweet-lista-elementos li {
+    margin-bottom: 10px;
+}
