@@ -1,0 +1,1 @@
+Esto es una informacion desde un archivo .txt
